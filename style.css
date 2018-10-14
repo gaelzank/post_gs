@@ -1,0 +1,32 @@
+
+h3{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    background-color: #2E8B57;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+li{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    background-color: #8FBC8F;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+    list-style-type: none;
+
+}
+p{
+    /*position: relative;*/
+    padding : 10px;
+    margin : 10px;
+    border: 1px solid black;
+    height: 100%;
+    background-color: #DAA520;
+}
+.buttonRight{
+    float: right;
+}

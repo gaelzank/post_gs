@@ -3,12 +3,12 @@
 <head>
 	<title>Essai</title>
 	<meta charset="utf-8">
-	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
 		<form>
-			<div>
+			<!--  <div>
 				<label>Titre saisi :</label>
 				<input type="text" name="text" class="titre">
 
@@ -17,14 +17,21 @@
 				<label>Données saisies :</label>
 				<input type="text" name="text" class="description">
 
-			</div>
-			<span>Information qui reste :</span>
+			</div> -->
+
+ <!-- 	<div>
 			<p class="resultTitre"></p>
 			<p class="resultDescription"></p>
-			<button class="envoi">OK</button>
-
+	</div><br><br> -->
+			<!-- <button class="envoi" onclick="actionCreerUnPost()">OK</button> -->
+			<input type="text"  id="newTitre" placeholder="Titre"/>
+			<br>
+    		<textarea type="textarea"  id="newDescription" placeholder="Description"rows="10" cols="50"></textarea>
+			<input type="button" value="Ajouter" onclick="actionCreerUnPost()" />
 		</form>
-		<ul id="mesPosts"></ul>
+		<ul id="mesPosts">
+			
+		</ul>
 	</div>
 	<script type="text/javascript" src="app.js"></script>
 </body>
