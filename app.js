@@ -15,13 +15,7 @@ var newDescription = document.querySelector("#newDescription");
 // 	resultDescription.innerHTML = newDescription.value;
 // });
 
-// var listePosts = [{
-//   "titre": "Premier post",
-//   "description": "sa description"
-// }, {
-//   "titre": "Deuxième post",
-//   "description": "sa description"
-// }];
+
 
 
 
